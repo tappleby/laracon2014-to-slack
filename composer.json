@@ -1,0 +1,14 @@
+{
+  "name": "tappleby/laracon-test",
+  "require": {
+    "guzzle/guzzle": "3.8.*",
+    "symfony/dom-crawler": "v2.4.4",
+    "symfony/css-selector": "v2.4.4"
+  },
+  "authors": [
+    {
+      "name": "Terry Appleby",
+      "email": "terry.appleby@gmail.com"
+    }
+  ]
+}
