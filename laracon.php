@@ -22,7 +22,7 @@ $timestampLast = time();
 
 while(true) {
 	$timestampCurrent = time();
-	$url = "http://live.besnappy.com/laracon-2014/liveblog/{$timestampLast}/$timestampCurrent";
+	$url = "http://live.besnappy.com/laracon-2014/liveblog/{$timestampLast}/{$timestampCurrent}";
 	printf("Fetching %s".PHP_EOL, $url);
 	$resp = json_decode(file_get_contents($url));
 
